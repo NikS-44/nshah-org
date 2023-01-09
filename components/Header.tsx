@@ -62,7 +62,7 @@ const StyledLogoContainer = styled.div`
 const Header = () => {
     return (
         <StyledHeader>
-            <Link href="/">
+            <Link href="/" tabIndex={-1}>
                 <StyledLogoContainer>
                     <SiteLogo/>
                 </StyledLogoContainer>
