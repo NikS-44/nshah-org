@@ -12,7 +12,7 @@ const IndexPage = () => (
           As a frontend developer, I've worked professionally with React and Angular, and while I don't favor one or
           the other, I strongly prefer Typescript in whatever web project I am working on. I excel when working on
           teams with a strong collaborative culture, and I get the most joy working with others. I enjoy understanding
-          the  inner works of how the web actually works, and my goal is to eventually be able to lead teams in
+          the low level details of how the web actually works, and my goal is to eventually be able to lead teams in
           building scalable, reliable, and usable websites. I also have a strong passion for web accessibility, and
           believe it is paramount to build inclusive and usable websites for all.
 
