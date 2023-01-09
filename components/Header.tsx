@@ -62,9 +62,11 @@ const StyledLogoContainer = styled.div`
 const Header = () => {
     return (
         <StyledHeader>
-            <StyledLogoContainer>
-                <SiteLogo/>
-            </StyledLogoContainer>
+            <Link href="/">
+                <StyledLogoContainer>
+                    <SiteLogo/>
+                </StyledLogoContainer>
+            </Link>
             <StyledNav>
                 <StyledNavItem>
                     <StyledLink href="/">
