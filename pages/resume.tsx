@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import Layout from '../components/Layout'
 
-const AboutPage = () => (
-    <Layout title="About Me">
+const ResumePage = () => (
+    <Layout title="C/V">
         <h1>About</h1>
         <p> My name is Nik and I am a web developer and rock climber. I have a passion for all things tech and love the
             challenge of solving complex problems. In my free time, you can find me at the climbing gym, in the
@@ -21,4 +21,4 @@ const AboutPage = () => (
     </Layout>
 )
 
-export default AboutPage
+export default ResumePage
