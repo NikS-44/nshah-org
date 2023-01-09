@@ -9,15 +9,16 @@ const StyledHeader = styled.header`
   color: lightgrey;
 `
 
-const StyledNav = styled.nav`
+const StyledUl = styled.ul`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
   width: min(60vw, 600px);
+  list-style-type: none; /* Remove bullets */
 `
 
-const StyledNavItem = styled.div`
+const StyledNavItem = styled.li`
   align-self: center;
 `
 
@@ -27,7 +28,6 @@ const VerticalDivider = styled.div`
 `;
 
 const StyledLink = styled(Link)`
-  padding: 1px 1em;
   text-decoration: none;
   color: inherit;
   display: flex;
@@ -38,6 +38,7 @@ const TextContainer = styled.span<{
     content: string;
 }>`
   text-align: center;
+  padding: 0 1em;
 
   ::before {
     display: block;
@@ -67,25 +68,27 @@ const Header = () => {
                     <SiteLogo/>
                 </StyledLogoContainer>
             </Link>
-            <StyledNav>
-                <StyledNavItem>
-                    <StyledLink href="/">
-                        <TextContainer content={"Home"}>Home</TextContainer>
-                    </StyledLink>
-                </StyledNavItem>
-                <VerticalDivider>&nbsp; | &nbsp;</VerticalDivider>
-                <StyledNavItem>
-                    <StyledLink href="/resume">
-                        <TextContainer content={"Resume"}>Resume</TextContainer>
-                    </StyledLink>
-                </StyledNavItem>
-                <VerticalDivider>&nbsp; | &nbsp;</VerticalDivider>
-                <StyledNavItem>
-                    <StyledLink href="/projects">
-                        <TextContainer content={"Projects"}>Projects</TextContainer>
-                    </StyledLink>
-                </StyledNavItem>
-            </StyledNav>
+            <nav>
+                <StyledUl>
+                    <StyledNavItem>
+                        <StyledLink href="/">
+                            <TextContainer content={"Home"}>Home</TextContainer>
+                        </StyledLink>
+                    </StyledNavItem>
+                    <VerticalDivider>&nbsp; | &nbsp;</VerticalDivider>
+                    <StyledNavItem>
+                        <StyledLink href="/resume">
+                            <TextContainer content={"Resume"}>Resume</TextContainer>
+                        </StyledLink>
+                    </StyledNavItem>
+                    <VerticalDivider>&nbsp; | &nbsp;</VerticalDivider>
+                    <StyledNavItem>
+                        <StyledLink href="/projects">
+                            <TextContainer content={"Projects"}>Projects</TextContainer>
+                        </StyledLink>
+                    </StyledNavItem>
+                </StyledUl>``
+            </nav>
         </StyledHeader>
     )
 
