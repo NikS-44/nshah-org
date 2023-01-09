@@ -73,8 +73,8 @@ const Header = () => {
                 </StyledNavItem>
                 <VerticalDivider>&nbsp; | &nbsp;</VerticalDivider>
                 <StyledNavItem>
-                    <StyledLink href="/about">
-                        <TextContainer content={"About"}>About</TextContainer>
+                    <StyledLink href="/resume">
+                        <TextContainer content={"Resume"}>Resume</TextContainer>
                     </StyledLink>
                 </StyledNavItem>
                 <VerticalDivider>&nbsp; | &nbsp;</VerticalDivider>
