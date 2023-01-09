@@ -87,7 +87,7 @@ const Header = () => {
                             <TextContainer content={"Projects"}>Projects</TextContainer>
                         </StyledLink>
                     </StyledNavItem>
-                </StyledUl>``
+                </StyledUl>
             </nav>
         </StyledHeader>
     )
