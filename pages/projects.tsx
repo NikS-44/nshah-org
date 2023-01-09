@@ -3,11 +3,8 @@ import Layout from '../components/Layout'
 
 const ProjectsPage = () => (
   <Layout title="Projects">
-    <h1>About</h1>
-    <p>This is the about page</p>
-    <p>
-      <Link href="/">Go home</Link>
-    </p>
+    <h1>Projects</h1>
+    <p>This is a placeholder for my future projects page</p>
   </Layout>
 )
 
