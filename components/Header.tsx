@@ -22,7 +22,6 @@ const StyledUl = styled.ul`
   min-width: min(50vw, 768px);
   max-width: 768px;
   list-style-type: none; /* Remove bullets */
-  padding-left: min(40px, 2vw);
 `
 
 const VerticalDivider = styled.div`
