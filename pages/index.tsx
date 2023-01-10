@@ -10,6 +10,7 @@ const StyledHeaderText = styled.h1`
   border-radius: 75px;
   padding: 1em;
   background-color: white;
+  height: fit-content;
 `
 
 const StyledImage = styled(Image)`

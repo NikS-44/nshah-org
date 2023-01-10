@@ -19,12 +19,11 @@ const StyledUl = styled.ul`
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  min-width: 50vw;
+  min-width: min(50vw, 768px);
+  max-width: 768px;
   list-style-type: none; /* Remove bullets */
   padding-left: min(40px, 2vw);
 `
-
-
 
 const VerticalDivider = styled.div`
   color: rgba(255, 255, 255, 0.3);
