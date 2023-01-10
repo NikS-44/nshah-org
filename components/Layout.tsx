@@ -15,6 +15,7 @@ const SiteContent = styled.div`
   display: flex;
   flex-direction: column;
   height: 100vh;
+  background-color: #f5f5f5;
 `
 
 
@@ -24,6 +25,7 @@ const PageContent = styled.div`
   align-self: center;
   padding: 5vw;
   background-color: #f5f5f5;
+  max-width: 1024px;
 `
 
 

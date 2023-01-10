@@ -6,7 +6,6 @@ import Image from 'next/image'
 
 const StyledHeaderText = styled.h1`
   min-width: 8em;
-  max-width: 40vw;
   border: 5px solid #00ffba;
   border-radius: 75px;
   padding: 1em;
@@ -15,16 +14,15 @@ const StyledHeaderText = styled.h1`
 
 const StyledImage = styled(Image)`
   border-radius: 30%;
-  width: max(250px, 40%);
+  width: stretch;
   height: auto;
   box-sizing: border-box;
 `
 
 const HeaderFlexbox = styled.div`
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  gap: 5vw;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 `
 const AboutMeContent = styled.div`
   background-color: white;
