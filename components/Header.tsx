@@ -5,10 +5,9 @@ import SiteLogo from "./icons/SiteLogo";
 
 const StyledHeader = styled.header`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background: #2d2d2d;
   color: lightgrey;
-  align-self: flex-start;
 `
 
 const StyledNavItem = styled.li`
@@ -20,7 +19,7 @@ const StyledUl = styled.ul`
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  min-width: max(350px,50vw);
+  min-width: 50vw;
   list-style-type: none; /* Remove bullets */
   padding-left: min(40px, 2vw);
 `
