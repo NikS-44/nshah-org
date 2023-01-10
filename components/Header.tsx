@@ -8,6 +8,7 @@ const StyledHeader = styled.header`
   justify-content: space-between;
   background: #2d2d2d;
   color: lightgrey;
+  align-self: flex-start;
 `
 
 const StyledNavItem = styled.li`
