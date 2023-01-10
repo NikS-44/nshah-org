@@ -6,10 +6,9 @@ import styled from "styled-components";
 const StyledFooter = styled.footer`
   display: flex;
   justify-content: center;
-  height: 60px;
   background: #2d2d2d;
   color: lightgrey;
-  padding-top: 5px;
+  padding: 10px 0;
 `
 
 const StyledLink = styled.a`
