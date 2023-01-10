@@ -24,7 +24,7 @@ const SiteContent = styled.div`
 const PageContent = styled.div`
   flex-grow: 1;
   align-self: center;
-  padding: 5vw;
+  padding: 30px;
   background-color: #f5f5f5;
   max-width: 1024px;
 `

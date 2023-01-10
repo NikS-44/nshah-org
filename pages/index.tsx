@@ -23,7 +23,7 @@ const StyledImage = styled(Image)`
 
 const HeaderFlexbox = styled.div`
   display: grid;
-  gap: 5vw;
+  gap: 30px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 `
 const AboutMeContent = styled.div`
