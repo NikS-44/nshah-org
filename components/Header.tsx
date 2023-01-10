@@ -19,7 +19,7 @@ const StyledUl = styled.ul`
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  min-width: max(375px,50vw);
+  min-width: max(350px,50vw);
   list-style-type: none; /* Remove bullets */
   padding-left: min(40px, 2vw);
 `

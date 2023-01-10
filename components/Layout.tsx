@@ -16,6 +16,7 @@ const SiteContent = styled.div`
   flex-direction: column;
   height: 100vh;
   background-color: #f5f5f5;
+  box-sizing: border-box;
 `
 
 
