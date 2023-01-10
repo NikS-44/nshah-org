@@ -5,22 +5,26 @@ import SiteLogo from "./icons/SiteLogo";
 
 const StyledHeader = styled.header`
   display: flex;
+  justify-content: space-between;
   background: #2d2d2d;
   color: lightgrey;
-`
-
-const StyledUl = styled.ul`
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  width: min(60vw, 600px);
-  list-style-type: none; /* Remove bullets */
 `
 
 const StyledNavItem = styled.li`
   align-self: center;
 `
+
+const StyledUl = styled.ul`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  min-width: max(375px,50vw);
+  list-style-type: none; /* Remove bullets */
+  padding-left: min(40px, 2vw);
+`
+
+
 
 const VerticalDivider = styled.div`
   color: rgba(255, 255, 255, 0.3);
@@ -56,32 +60,33 @@ const TextContainer = styled.span<{
 
 const StyledLogoContainer = styled.div`
   margin-left: 10px;
-  margin-right: 50px;
 `
 
 
 const Header = () => {
     return (
         <StyledHeader>
-            <Link href="/" tabIndex={-1}>
-                <StyledLogoContainer>
-                    <SiteLogo/>
-                </StyledLogoContainer>
-            </Link>
             <nav>
                 <StyledUl>
+                    <StyledNavItem>
+                        <StyledLink href="/">
+                            <StyledLogoContainer>
+                                <SiteLogo/>
+                            </StyledLogoContainer>
+                        </StyledLink>
+                    </StyledNavItem>
                     <StyledNavItem>
                         <StyledLink href="/">
                             <TextContainer content={"Home"}>Home</TextContainer>
                         </StyledLink>
                     </StyledNavItem>
-                    <VerticalDivider>&nbsp; | &nbsp;</VerticalDivider>
+                    <VerticalDivider>|</VerticalDivider>
                     <StyledNavItem>
                         <StyledLink href="/resume">
                             <TextContainer content={"Resume"}>Resume</TextContainer>
                         </StyledLink>
                     </StyledNavItem>
-                    <VerticalDivider>&nbsp; | &nbsp;</VerticalDivider>
+                    <VerticalDivider>|</VerticalDivider>
                     <StyledNavItem>
                         <StyledLink href="/projects">
                             <TextContainer content={"Projects"}>Projects</TextContainer>
