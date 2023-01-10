@@ -14,6 +14,7 @@ const StyledHeaderText = styled.h1`
 
 const StyledImage = styled(Image)`
   border-radius: 30%;
+  align-self: center;
   width: stretch;
   height: auto;
   box-sizing: border-box;
@@ -22,7 +23,7 @@ const StyledImage = styled(Image)`
 const HeaderFlexbox = styled.div`
   display: grid;
   gap: 5vw;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 `
 const AboutMeContent = styled.div`
   background-color: white;
