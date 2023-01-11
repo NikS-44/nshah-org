@@ -57,7 +57,7 @@ const TextContainer = styled.span<{
 `
 
 const StyledLogoContainer = styled.div`
-  margin-left: 10px; // TODO: https://stackoverflow.com/questions/11701311/logo-image-and-h1-heading-on-the-same-line
+  // TODO: https://stackoverflow.com/questions/11701311/logo-image-and-h1-heading-on-the-same-line
 `
 
 
