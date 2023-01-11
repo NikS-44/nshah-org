@@ -67,7 +67,7 @@ const Header = () => {
             <nav>
                 <StyledUl>
                     <StyledNavItem>
-                        <StyledLink href="/">
+                        <StyledLink href="/" alt="Logo - Homepage Link">
                             <StyledLogoContainer>
                                 <SiteLogo/>
                             </StyledLogoContainer>
