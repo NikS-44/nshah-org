@@ -1,3 +1,5 @@
+'use client'
+
 import GitHubIcon from "./icons/GitHubIcon";
 import LinkedInIcon from "./icons/LinkedInIcon";
 import React from "react";
