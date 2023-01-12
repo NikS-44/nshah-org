@@ -1,5 +1,4 @@
 import React, {ReactNode} from 'react'
-import Link from 'next/link'
 import Head from 'next/head'
 import styled from "styled-components";
 import Footer from "./Footer";
@@ -14,7 +13,7 @@ type Props = {
 const SiteContent = styled.div`
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #f5f5f5;
   box-sizing: border-box;
 `
